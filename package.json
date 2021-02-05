@@ -1,0 +1,11 @@
+{
+  "name": "norrsken",
+  "version": "1.0.0",
+  "description": "Website template for the Minnesota Furs event Midwinter Frolic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Cain",
+  "license": "ISC"
+}
