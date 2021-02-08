@@ -43,13 +43,13 @@ a {
 }
 
 .navigation .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(152, 185, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(111, 156, 235)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 
 .header {
     background-image: linear-gradient(
         to right bottom,
-        rgba(111, 156, 235, 0.9),
+        rgba(152, 185, 242, 0.9),
         rgba(33, 59, 84, 0.9)),
         url(../img/header.jpg);
     background-repeat: no-repeat;
