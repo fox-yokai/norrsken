@@ -46,13 +46,16 @@ a {
     background-image: linear-gradient(
         to right bottom,
         rgba(111, 156, 235, 0.8),
-        rgba(33, 59, 84, 0.8));
-    height: 75vh;
+        rgba(33, 59, 84, 0.8)),
+        url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60vh;
 }
 
 .header__text-box {
     position: absolute;
-    top: 55%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -60,8 +63,33 @@ a {
 
 .heading {
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 8rem;
     letter-spacing: 1.25;
     font-weight: 300;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .header {
+        height: 50vh;
+    }
+
+    .header__text-box {
+        top: 35%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .heading {
+        font-size: 5rem;
+    }
+}
+
+
+
 
