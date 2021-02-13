@@ -37,6 +37,16 @@ a {
     color: var(--color-primary);
 }
 
+.btn,
+.btn-outline-success {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn:hover {
+    color: var(--color-grey-light);
+    background-color: var(--color-primary);
+}
 .navigation {
     background-color: var(--color-grey-dark-3);  
 }
@@ -139,6 +149,19 @@ a {
     font-size: .8rem;
     text-align: left;
     font-weight: 300;
+}
+
+.footer {
+    background-color: var(--color-grey-dark-3);
+    padding: 2rem 0;
+    color: var(--color-grey-light);
+}
+
+.footer-link,
+.footer-link:link,
+.footer-link:visited {
+    color: var(--color-grey-light);
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
